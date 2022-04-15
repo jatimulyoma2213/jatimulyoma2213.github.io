@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Jatimulyo : Data Penduduk Tahunan</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styleHalamanData.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Memuat Bagian Header -->
+    <header>
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+            </ul>
+            </div>
+    </header>
+
+    <!--Membuat bagian banner-->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-left">
+                <img src="../gambar/logo.jpg">
+                <h2>JATIMULYO</h2>
+                <p>Desa Jatimulyo, Kecamatan Jati Agung, Kabupaten Lampung Selatan</p>
+                <p>Lampung, Indonesia</p>
+                <p>Kode Pos 35365</p>
+            </div>
+        </div>
+    </section>
+
+     <!--Menampilkan Data-->
+     <section id="tampilanGrafik">
+        <div class="container">
+            <div>
+                <h3>Kepadatan Penduduk (Orang/KM<sup>2</sup>)</h3>
+                <canvas id="dataKepadatanPenduduk"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!--Membuat Bagian Footer-->
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2022</small>
+        </div>
+    </footer>
+    
+    <script src="p5.js"></script>
+    <script src="Chart.js"></script>
+    <script src="halamanKepadatanPendudukJS.js"></script>
+    <script src="../javaScript/script.js"></script>
+</body>
+</html>
