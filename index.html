@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Jatimulyo</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/css/ol.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>
+
+</head>
+
+<body>
+
+    <!--Sidebar-->
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <label for="check" class="mobile-menu"><i class="fa-solid fa-rectangle-xmark"></i></i></label>
+        <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#strukturOrganisasi">Struktur Organisasi</a></li>
+            <li><a href="#dataKependudukan">Data Kependudukan</a></li>
+            <li><a href="#petaDesa">Peta</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </div>
+
+    <!-- Memuat Bagian Header -->
+    <header>
+        <div class="container">
+            <h1><a href="">Desa Jatimulyo</a></h1>
+            <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#strukturOrganisasi">Struktur Organisasi</a></li>
+            <li><a href="#dataKependudukan">Data Kependudukan</a></li>
+            <li><a href="#petaDesa">Peta</a></li>
+            <li><a href="#contact">Kontak</li>
+            </ul>
+
+            <!--Menu Tampilan Mobile-->
+            <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+        </div>
+    </header>
+
+    <!--Membuat bagian banner-->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-left">
+                <img src="gambar/logo.jpg">
+                <h2>Selamat Datang!!<br>
+                di Website <span class="efek-mengetik"></span></h2>
+                <p>Desa Jatimulyo, Kecamatan Jati Agung, Kabupaten Lampung Selatan</p>
+                <p>Lampung, Indonesia</p>
+                <p>Kode Pos 35365</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Membuat Bagian Profil-->
+    <section id="profil">
+        <div class="container">
+            <h3>Profil Desa</h3>
+            <p>
+                Desa Jatimulyo merupakan salah satu dari 21 desa yang berlokasi di Kecamatan Jati Agung, Kabupaten Lampung Selatan. 
+                Berdasarkan data Profil Desa Jatimulyo yang diterbitkan oleh Badan Pemberdayaan Masyarakat Desa Kabupaten Lampung Selatan 
+                tahun 2019 dan data publikasi tahunan yang diterbitkan oleh Badan Statistik Kabupaten Lampung Selatan tahun 2021, 
+                luas wilayah Desa Jatimulyo yaitu 12.234 Ha dengan presentase terhadap luas kecamatan yaitu 6,44%. Desa Jatimulyo terdiri 
+                dari 12 Dusun dan 57 RT serta 5.629 jumlah KK. Secara koordinat geografis Desa Jatimulyo berada di 5&deg;20"33"S 105&deg;18"23"E.
+                Jarak dari Desa ke Ibukota Kecamatan, Ibukota Kabupaten, dan Ibukota Provinsi di Kecamatan Jati Agung (km) yaitu sebagai berikut:
+                <ol>1.  Jarak Desa ke Ibukota Kecamatan : 7,00 km</ol>
+                <ol>2.  Jarak Desa ke Ibukota Kabupaten : 72,00 km</ol>
+                <ol>3.  Jarak Desa ke Ibukota Provinsi : 13,00 km</ol>
+                
+            </p>
+            <p>
+                Desa Jatimulyo termasuk daerah dataran yang memiliki penggunaan lahan utama berupa lahan perkebunan dengan luas 6,75 Ha dengan 
+                ketinggian yaitu 120 m dari permukaan air laut, dengan batas-batas wilayah sebagai berikut:  
+                <ol>1.  Sebelah Utara berbatasan dengan Desa Karang Sari & Marga Agung Kecamatan Jati Agung</ol>
+                <ol>2.  Sebelah Timur berbatasan dengan Banjar Agung & Marga Agung Kecamatan Jati Agung</ol>
+                <ol>3.  Sebelah Selatan berbatasan dengan Way Huwi & Way Kandis (Bandar Lampung) Kecamatan Jati Agung dan Kecamatan Tanjung Senang</ol>
+                <ol>4.  Sebelah Barat berbatasan dengan Karang Sari & Fajar Baru Kecamatan Jati Agung</ol>
+            </p>
+        </div>
+    </section>
+
+    <!--Membuat Bagian Struktur Organisasi-->
+    <section id="strukturOrganisasi">
+        <div class="container">
+            <div class="organisasi-center">
+                <h3>Struktur Organisasi</h3> 
+                <img src="gambar/strukturOrganisasiJatimulyo.JPG">
+            </div>
+        </div>
+    </section>
+
+    <!--Membuat Bagian Data Kependudukan-->
+    <section id="dataKependudukan">
+        <div class="container">
+            <h3>Data Kependudkan</h3>
+            <div class="col-4">
+                <a href="halaman/halamanPendudukTahunan.html">
+                    <img src="gambar/pendudukTahunan.JPG">
+                    <span>Data Penduduk Tahunan</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="halaman/halamanJenisKelamin.html">
+                    <img src="gambar/jenisKelamin.JPG">
+                    <span>Data Jenis Kelamin Penduduk</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="halaman/halamanUsia.html">
+                    <img src="gambar/usia.JPG">
+                    <span>Data Usia Penduduk</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="halaman/halamanPendidikan.html">
+                    <img src="gambar/pendidikan.JPG">
+                    <span>Data Pendidikan Penduduk</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="halaman/halamanPekerjaan.html">
+                    <img src="gambar/pekerjaan.JPG">
+                    <span>Data Pekerjaan Penduduk</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="halaman/halamanAgama.html">
+                    <img src="gambar/agama.JPG">
+                    <span>Data Penganut Agama</span>
+                </a>
+            </div>
+
+            <div class="col-4">
+                <a href="halaman/halamanKepadatanPenduduk.html">
+                    <img src="gambar/kepadatan.JPG">
+                    <span>Data Kepadatan Penduduk</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Membuat Bagian Peta Desa-->
+    <section id="petaDesa">
+        <div class="container">
+            <h3>Peta</h3>
+            <div id="map" class="map">
+                <style>
+                    .map {
+                      height: 400px;
+                      width: 100%;
+                    }
+                </style>
+            </div>
+        </div>
+    </section>
+
+    <!--Membuat Bagian Contact-->
+    <section id="contact">
+        <div class="container">
+            <h4>Kontak</h4>
+            <p>Email : jatimulyo2022_@email.com</p>
+            <p>Facebook : jatimulyo</p>
+        </div>
+    </section>
+
+    <!--Membuat Bagian Footer-->
+    <footer>
+        <div class="container">
+            <small>Copyright &copy; 2022</small>
+        </div>
+    </footer>
+
+    <script src="javaScript/script.js"></script>
+    <script src="javaScript/petaOL.js"></script>
+</body>
+</html>
