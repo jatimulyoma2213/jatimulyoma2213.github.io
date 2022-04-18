@@ -19,7 +19,7 @@ header ul li a {
     transition: .4s;
 }
 header ul li a:hover {
-    color: crimson;
+    color: rgb(207, 220, 20);
 }
 a {
     text-decoration: none;
@@ -37,7 +37,7 @@ a {
 
 /*BAGIAN BANNER*/
 .banner {
-    background-color: rgb(17, 65, 116);
+    background-color: rgb(184, 9, 125);
     padding: 100px 0;
 }
 section {
